@@ -11,7 +11,7 @@ output:
 require(knitr)
 require(tidyverse)
 require(tigerstats)
-
+mydata <- read.csv(file="GSScsv.csv")
 ```
 
 # Introduction
@@ -39,7 +39,7 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 ### Numerical Descriptive Results
 
 ```{r}
-basicCN <- ggplot(davisdata,aes(x=Seat,y=alcohol))
+basicCN <- ggplot(GSScsv,aes(x=WORDSUM,y=DEGREE))
 
 basicCN + geom_boxplot()
 ```
