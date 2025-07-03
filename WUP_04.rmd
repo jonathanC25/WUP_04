@@ -72,3 +72,8 @@ Looking at the graph we have a dotted line above zero the only thing it dosent c
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+We first started with the ggplot and figgured out that In the plot the LT high school and high school is under the junior college and bachelor schools. Then moved on to the numerical part an figured out In the data we can see that the LT high school and the high school Q3 is lower than the graduate schools Q1. Now the inferential results tells us that The P value data is a small number of 0.000236. And finally looking once back at the graph from the inferential side we figured out that Looking at the graph we have a dotted line above zero the only thing it dosent cut into is the difference between the LT high school and the graduate high school
+
+
+
