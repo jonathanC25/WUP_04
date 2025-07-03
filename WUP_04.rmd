@@ -62,6 +62,7 @@ In the data we can see that the LT high school and the high school Q3 is lower t
 model1 <- aov(WORDSUM~DEGREE,data=,mydata)
 summary.aov(model1)
 ```
+The P value data is a small number of 0.000236
 
 # Discussion and Conclusion
 
