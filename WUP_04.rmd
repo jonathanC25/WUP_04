@@ -39,7 +39,7 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 ### Numerical Descriptive Results
 
 ```{r}
-basicCN <- ggplot(GSScsv,aes(x=DEGREE,y=WORDSUM))
+basicCN <- ggplot(GSScsv,aes(x=WORDSUM,y=DEGREE))
 
 basicCN + geom_boxplot()
 ```
