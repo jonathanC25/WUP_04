@@ -63,6 +63,11 @@ model1 <- aov(WORDSUM~DEGREE,data=,mydata)
 summary.aov(model1)
 ```
 The P value data is a small number of 0.000236
+```{r}
+par(mar = c(3, 17, 2, 2))
+plot(TukeyHSD(model1, conf.level =0.98), las=2)
+```
+Looking at the graph we have a dotted line above zero the only thing it dosent cut into is the difference between the LT high school and the graduate high school
 
 # Discussion and Conclusion
 
