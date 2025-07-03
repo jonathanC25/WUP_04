@@ -52,7 +52,7 @@ In the plot the LT high school and high school is under the junior college and b
 ```{r}
 favstats(WORDSUM~DEGREE,data=mydata)
 ```
-In the data we can see that the LT high school and the high school Q3 is lower than the graduate schools Q1
+In the data we can see that the LT high school and the high school Q3 is lower than the graduate schools Q1.
 
 ## Inferential Results
 
