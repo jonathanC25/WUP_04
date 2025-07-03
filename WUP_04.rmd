@@ -39,7 +39,7 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 ### Numerical Descriptive Results
 
 ```{r}
-basicCN <- ggplot(GSScsv,aes(x=WORDSUM,y=DEGREE))
+basicCN <- ggplot(GSScsv,aes(x=DEGREE,y=WORDSUM))
 
 basicCN + geom_boxplot()
 ```
@@ -48,6 +48,11 @@ In the plot the LT high school and high school is under the junior college and b
 
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(WORDSUM~DEGREE,data=mydata)
+```
+In the data we can see that the LT high school and the high school Q3 is lower than the graduate schools Q1
 
 ## Inferential Results
 
